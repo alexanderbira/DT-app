@@ -1,0 +1,100 @@
+[
+  {
+    "name": "basil",
+    "common_uses": [
+      "pesto",
+      "tomato salad",
+      "tomato-based pasta"
+    ],
+    "light": 10,
+    "wiki": "https://simple.wikipedia.org/wiki/Basil"
+  },
+  {
+    "name": "chamomile",
+    "common_uses": [
+      "tea",
+      "flavouring",
+      "medicine"
+    ],
+    "light": 16,
+    "wiki": "https://en.wikipedia.org/wiki/Chamomile"
+  },
+  {
+    "name": "rosemary",
+    "common_uses": [
+      "stuffing",
+      "mediterranean cuisine",
+      "roasts"
+    ],
+    "light": 12,
+    "wiki": "https://en.wikipedia.org/wiki/Rosemary"
+  },
+  {
+    "name": "oregano",
+    "common_uses": [
+      "italian cuisine",
+      "roasted vegetables",
+      "fish"
+    ],
+    "light": 9,
+    "wiki": "https://en.wikipedia.org/wiki/Oregano"
+  },
+  {
+    "name": "coriander",
+    "common_uses": [
+      "curry",
+      "sandwiches",
+      "salads"
+    ],
+    "light": 9,
+    "wiki": "https://en.wikipedia.org/wiki/Coriander"
+  },
+  {
+    "name": "aniseed",
+    "common_uses": [
+      "teas",
+      "confectioneries",
+      "baking"
+    ],
+    "light": 8,
+    "wiki": "https://en.wikipedia.org/wiki/Anise"
+  },
+  {
+    "name": "dill",
+    "common_uses": [
+      "potatoes",
+      "salads",
+      "fish"
+    ],
+    "light": 9,
+    "wiki": "https://en.wikipedia.org/wiki/Dill"
+  },
+  {
+    "name": "catnip",
+    "common_uses": [
+      "cats love it"
+    ],
+    "light": 5,
+    "wiki": "https://en.wikipedia.org/wiki/Catnip"
+  },
+  {
+    "name": "chives",
+    "common_uses": [
+      "salads",
+      "garnish",
+      "herring"
+    ],
+    "light": 15,
+    "wiki": "https://en.wikipedia.org/wiki/Chives"
+  },
+  {
+    "name": "spring onion",
+    "common_uses": [
+      "asian dishes",
+      "mashed potatoes",
+      "noodles"
+    ],
+    "light": 13,
+    "wiki": "https://en.wikipedia.org/wiki/Scallion"
+  }
+]
