@@ -198,8 +198,9 @@ class DisconnectedText extends App {
             style={styles.bar}
             activeOpacity={0.7}>
             <Text style={{color: 'rgb(15,118,239)'}}>
-              Click to search for device
+              Click to find and connect to device
             </Text>
+            <Ionicons name={'ios-search'} size={32} color={'lightgray'} />
           </TouchableOpacity>
         )}
         {!this.props.search && (
