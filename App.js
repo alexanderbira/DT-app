@@ -192,18 +192,6 @@ class DisconnectedText extends App {
         <Text style={styles.description}>
           Connect your device to gain access to remote controls.
         </Text>
-        <TouchableOpacity
-          style={styles.description}
-          onPress={() =>
-            Linking.openURL(
-              'https://Plantr.alexanderbirabe.repl.co/troubleshooting',
-            )
-          }>
-          <Text style={{color: 'rgb(15,118,239)'}}>
-            If you are not able to connect to your Plantr, click here for
-            troubleshooting.
-          </Text>
-        </TouchableOpacity>
         {this.props.search && (
           <TouchableOpacity
             onPress={() => this.scanAndConnect()}
@@ -219,6 +207,18 @@ class DisconnectedText extends App {
             Go to the toggles menu to connect to a device.
           </Text>
         )}
+        <TouchableOpacity
+          style={styles.description}
+          onPress={() =>
+            Linking.openURL(
+              'https://Plantr.alexanderbirabe.repl.co/troubleshooting',
+            )
+          }>
+          <Text style={{color: 'rgb(15,118,239)'}}>
+            If you are not able to connect to your Plantr, click here for
+            troubleshooting.
+          </Text>
+        </TouchableOpacity>
       </React.Fragment>
     );
   }
