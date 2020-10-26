@@ -51,8 +51,6 @@ export default class TimeGroup extends Component {
   };
 
   render() {
-    console.log(this.props.handleSending);
-
     const {clicked} = this.state;
 
     return (
