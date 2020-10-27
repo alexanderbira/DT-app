@@ -4,7 +4,6 @@ import TimePicker from 'react-native-simple-time-picker';
 
 export default class DatePicker extends Component {
   render() {
-    console.log(this.props.handleSending);
 
     return (
       <View style={styles.container}>

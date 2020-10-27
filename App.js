@@ -94,7 +94,7 @@ export default class App extends Component {
   scanAndConnect() {
     this.manager.startDeviceScan(null, null, (error, device) => {
       if (error) {
-        console.log(error.toString());
+
         switch (error.toString()) {
           case 'BleError: BluetoothLE is powered off':
             Alert.alert(
@@ -126,7 +126,27 @@ export default class App extends Component {
               device.writeCharacteristicWithResponseForService(
                 '6e400001-b5a3-f393-e0a9-e50e24dcca9e',
                 '6e400002-b5a3-f393-e0a9-e50e24dcca9e',
-                encode(text),
+                encode(
+                  `"${new Date().getDate()} ${
+                    [
+                      'Jan',
+                      'Feb',
+                      'Mar',
+                      'Apr',
+                      'May',
+                      'Jun',
+                      'Jul',
+                      'Aug',
+                      'Sep',
+                      'Oct',
+                      'Nov',
+                      'Dec',
+                    ][new Date().getMonth()]
+                  } ${new Date().getFullYear()} ${(
+                    '0' + new Date().getHours()
+                  ).slice(-2)}:${('0' + new Date().getMinutes()).slice(-2)} " ` +
+                    text,
+                ),
               );
             };
             try {
